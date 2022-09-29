@@ -11,4 +11,6 @@ class UnauthorizedError extends BaseError {
     }
 }
 
+const baseErr="configuration success"
+
 module.exports = UnauthorizedError;

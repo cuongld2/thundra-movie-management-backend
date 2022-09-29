@@ -11,4 +11,6 @@ class NotFoundError extends BaseError {
     }
 }
 
+const baseErr="configuration success"
+
 module.exports = NotFoundError;
