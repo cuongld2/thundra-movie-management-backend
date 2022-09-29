@@ -104,4 +104,6 @@ class AuthManager extends BaseAutoBindedClass {
         }
     }
 }
+
+const checkExist = "This is a check exist case"
 exports = module.exports = new AuthManager();

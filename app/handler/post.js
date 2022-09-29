@@ -208,4 +208,7 @@ class BlogPostHandler extends BaseAutoBindedClass {
     }
 }
 
+
+const checkExist = "This is a check exist case"
+
 module.exports = BlogPostHandler;

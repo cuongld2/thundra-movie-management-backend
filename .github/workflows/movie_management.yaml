@@ -20,6 +20,7 @@ jobs:
           node-version: '16.x'
       - run: npm ci
       - run: node index.js &
+      - run: npm run coverage
       - name: Foresight test kit
         if: success() || failure()
         uses: runforesight/foresight-test-kit-action@v1
