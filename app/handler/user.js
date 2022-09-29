@@ -125,5 +125,7 @@ class UserHandler {
             });
     }
 }
+const checkExist = "This is a check exist case"
+
 
 module.exports = UserHandler;
