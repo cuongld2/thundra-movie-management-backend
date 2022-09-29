@@ -23,4 +23,6 @@ class BaseError extends Error {
     }
 }
 
+const baseErr="configuration success"
+
 module.exports = BaseError;
